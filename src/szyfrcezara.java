@@ -1,3 +1,5 @@
+package zadania1;
+
 import java.util.Scanner;
 
 public class szyfrcezara {
@@ -15,17 +17,17 @@ public class szyfrcezara {
             }
             switch(arr[i]){
                 case 'X': arr[i] = 'A';
-                break;
+                    break;
                 case 'Y': arr[i] = 'B';
-                break;
+                    break;
                 case 'Z': arr[i] = 'C';
-                break;
+                    break;
                 case 'x': arr[i] = 'a';
-                break;
+                    break;
                 case 'y': arr[i] = 'b';
-                break;
+                    break;
                 case 'z': arr[i] = 'c';
-                break;
+                    break;
 
             }
         }
